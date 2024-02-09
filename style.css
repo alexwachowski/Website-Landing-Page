@@ -67,6 +67,15 @@ li{
     background-color: #DEDEDE;
 }
 
+.projects img {
+  filter: blur(10px);
+  transition: filter 0.1s ease-in;
+}
+
+.projects img:hover {
+  filter: blur(0px);
+}
+
 .footer{
     background-color: #313131;
 }
