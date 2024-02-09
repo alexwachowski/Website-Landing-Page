@@ -1,0 +1,97 @@
+html{
+    background-color: #313131 ;
+}
+
+#Name{
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.navigation{
+    display:flex;
+    justify-content: center;
+    background-color: #1E1C1C;
+    padding: 25px
+    
+}
+
+.Logo{
+    display: flex;
+    color:white;
+    
+}
+
+.buttons{
+    display: flex;
+    justify-content: right;
+    gap:30px;
+}
+
+li{
+    list-style: none;
+}
+
+.nav-btn{
+    background-color: #1E1C1C;
+    color:white;
+    border: 0;
+    
+}
+
+.hero{
+    background-color: #313131;
+    color:white;
+
+}
+
+.main{
+    font-family: 'Playfair Display', serif;
+}
+
+.img-bg{
+    background-color: #313131;
+    margin: 0;
+    padding: 0;
+}
+
+.card-title{
+    display: flex;
+    height: 246px;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-body{
+    background-color: #DEDEDE;
+}
+
+.footer{
+    background-color: #313131;
+}
+
+.bg-img {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    background-color: #313131;
+    margin:0
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+  }
+
+  .projects{
+    background-color: #313131;
+  }
+
+
+
