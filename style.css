@@ -68,12 +68,12 @@ li{
 }
 
 .projects img {
-  filter: blur(10px);
+  filter: blur(0px);
   transition: filter 0.1s ease-in;
 }
 
 .projects img:hover {
-  filter: blur(0px);
+  filter: blur(10px);
 }
 
 .projects .centered {
