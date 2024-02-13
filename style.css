@@ -76,6 +76,15 @@ li{
   filter: blur(0px);
 }
 
+.projects .centered {
+  display: none;
+  transition: filter 0.3s ease-in;
+}
+
+.projects img:hover + .centered {
+  display: block;
+}
+
 .footer{
     background-color: #313131;
 }
